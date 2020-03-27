@@ -1,0 +1,126 @@
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+
+@font-face {
+    font-family: DejaSans;
+    src: url('file:///usr/share/fonts/TTF/DejaVuSans.ttf');
+}
+
+@font-face {
+    font-family: DejaSans;
+    src: url('file:///usr/share/fonts/TTF/DejaVuSans-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'DejaSans', 'sans-serif';
+    font-size: 11px;
+    color: #000000;
+    width: 190mm;
+    margin: 0px auto 0px auto;
+    background: #FFFFFF;
+    padding: 0px 10px 10px 10px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 36px;
+    color: #757575;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Titles of categories */
+h2 {
+    font-size: 15px;
+    color: #600000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 17%;
+    height: 10px;
+    background-color: #600000;
+}
+
+/* Definitions */
+dl {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 18%;
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 18%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #600000;
+}
+a:hover, a:active {
+    background-color: #600000;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}
+
+/* Ugly workaround: Hide date and author attributes */
+p.date {
+    display: none;
+}
+
+p.author {
+    display: none;
+}
+
+/* Place avatar image on the right side */
+.callout {
+    float: right;
+    width: 230px;
+}
