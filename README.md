@@ -8,6 +8,8 @@ Da ich all meine Notizen schon in [Markdown](https://en.wikipedia.org/wiki/Markd
 * [Lebenslauf.pdf](Lebenslauf.pdf)
 * [Lebenslauf.txt](Lebenslauf.txt)
 
+Die ausführliche Entstehung mit einigen Tips habe ich [verbloggt](https://www.geekbundle.org/neuer-lebenslauf-in-markdown/).
+
 ## Voraussetzung
 
 Benötigte Pakete unter Arch Linux installieren
