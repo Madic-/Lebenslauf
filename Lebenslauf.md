@@ -89,7 +89,6 @@ Firma 2
 
     Blah blah  
     Blah blah  
-    <div style="page-break-before: always;"></div>
 \
 
 Firma 1
@@ -97,6 +96,8 @@ Firma 1
    Blah blah  
    Blah blah  
    Blah blah  
+
+   <div style="page-break-before: always;"></div>
 
 ## Zusatzqualifikationen
 

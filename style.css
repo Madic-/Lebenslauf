@@ -111,11 +111,11 @@ hr {
 }
 
 /* Ugly workaround: Hide date and author attributes */
-p.date {
+.date {
     display: none;
 }
 
-p.author {
+.author {
     display: none;
 }
 
