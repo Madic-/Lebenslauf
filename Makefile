@@ -2,7 +2,7 @@
 
 CSS ?= style.css
 PDFLAGS = --section-divs --css $(CSS) --standalone --from markdown+yaml_metadata_block+link_attributes+definition_lists --to html5
-WKFLAGS = -B 4mm -T 10mm -L 0mm -R 4mm -q -s Letter --footer-right "[page]/[toPage]" --footer-font-size 6
+WKFLAGS = -B 4mm -T 10mm -L 0mm -R 4mm -q -s Letter --footer-right "[page]/[toPage]" --footer-font-size 6 --enable-local-file-access
 
 .PHONY: all
 all: Lebenslauf.html Lebenslauf.pdf Lebenslauf.txt
